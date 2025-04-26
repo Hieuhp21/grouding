@@ -1,0 +1,18 @@
+appsettings.json
+# VS user-specific files
+.vs/
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+
+# Rider, JetBrains
+.idea/
+
+# Logs
+*.log
