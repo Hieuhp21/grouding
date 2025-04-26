@@ -162,34 +162,60 @@
         </div>
     </div>
 </div>
+<div id="audioWarning" style="position: fixed; top: 10px; right: 10px; background-color: #ff9999; color: white; padding: 10px; border-radius: 5px; display: none; cursor: pointer;" onclick="requestAudioPermission()">
+    Âm thanh báo động không phát được. Nhấn để bật âm thanh.
+</div>
 
 <audio id="alarm_sound" hidden loop webkit-playsinline="true" playsinline="true">
     <source src="~/sound/alarm.mp3" type="audio/mp3" />
 </audio>
 
 <script>
-    function simulateUserInteraction() {
-        // Tạo một sự kiện click
-        const event = new MouseEvent('click', {
-            view: window,
-            bubbles: true,
-            cancelable: true
-        });
-       
-        // Gửi sự kiện tới một phần tử, ví dụ: document.body
-        document.body.dispatchEvent(event);
+    let alarmAudio = document.getElementById("alarm_sound");
+    let isPlaying = false; // Biến theo dõi trạng thái phát âm thanh
+    let isAudioEnabled = localStorage.getItem("isAudioEnabled") === "true"; // Lấy trạng thái mở khóa âm thanh từ localStorage
+    let audioWarning = document.getElementById("audioWarning");
+    window.isAlarmMuted = localStorage.getItem("isAlarmMuted") === "true"; // Lấy trạng thái mute từ localStorage
 
-        // Trả về true để xác nhận sự kiện đã được gửi
-        return true;
+    // Hàm yêu cầu mở khóa âm thanh bằng alert
+    function requestAudioPermission() {
+        audioWarning.style.display = "none"; // Ẩn cảnh báo khi người dùng nhấp
+        window.alert("Web giám sát cần quyền phát âm thanh báo động. Nhấn OK để bật âm thanh.");
+
+        // Sau khi người dùng nhấp OK, phát âm thanh ngắn để mở khóa
+        alarmAudio.muted = true; // Tạm thời tắt tiếng để không gây phiền
+        let playPromise = alarmAudio.play();
+        if (playPromise !== undefined) {
+            playPromise.then(() => {
+                alarmAudio.pause();
+                alarmAudio.currentTime = 0;
+                alarmAudio.muted = false; // Bỏ tắt tiếng
+                isAudioEnabled = true;
+                localStorage.setItem("isAudioEnabled", "true"); // Lưu trạng thái mở khóa
+                console.log("Quyền phát âm thanh đã được mở khóa.");
+                // Thử phát âm thanh nếu không bị mute
+                if (!window.isAlarmMuted) {
+                    playAlarm();
+                }
+            }).catch(error => {
+                console.error("Lỗi khi mở khóa âm thanh:", error);
+                audioWarning.style.display = "block"; // Hiện cảnh báo nếu không mở khóa được
+            });
+        }
     }
-    let isAlarmMuted = false;
+
+    // Kiểm tra trạng thái mở khóa âm thanh khi tải trang
+    if (!isAudioEnabled) {
+        requestAudioPermission(); // Hiển thị alert nếu chưa mở khóa
+    }
+
     $(document).ready(function () {
         // Cập nhật icon dựa trên trạng thái từ localStorage
         $("#alarmIcon").attr("src", window.isAlarmMuted ? "/image/soundoff.png" : "/image/soundon.png");
 
         $("#toggleAlarmBtn").click(function () {
             window.isAlarmMuted = !window.isAlarmMuted;
-            localStorage.setItem('isAlarmMuted', window.isAlarmMuted); // Lưu vào localStorage
+            localStorage.setItem('isAlarmMuted', window.isAlarmMuted); // Lưu trạng thái mute vào localStorage
             $("#alarmIcon").attr("src", window.isAlarmMuted ? "/image/soundoff.png" : "/image/soundon.png");
             if (window.isAlarmMuted) {
                 stopAlarm(); // Tắt âm thanh ngay khi mute
@@ -198,26 +224,48 @@
             }
         });
     });
+
+    // Hàm phát âm thanh báo động
     function playAlarm() {
-        if (!window.isAlarmMuted) {
-            simulateUserInteraction();
-            var alarm = document.getElementById("alarm_sound");
-            if (alarm) {
-                alarm.play().catch(function (error) {
-                    console.log("Error playing alarm: ", error);
+        if (!isAudioEnabled) {
+            console.log("Âm thanh chưa được mở khóa. Hiển thị cảnh báo.");
+            audioWarning.style.display = "block"; // Hiện cảnh báo nếu âm thanh chưa mở khóa
+            // Hiệu ứng nhấp nháy cho cảnh báo
+            let blink = setInterval(() => {
+                audioWarning.style.opacity = audioWarning.style.opacity === "1" ? "0.5" : "1";
+            }, 500);
+            setTimeout(() => clearInterval(blink), 5000); // Dừng nhấp nháy sau 5 giây
+            return;
+        }
+
+        if (!window.isAlarmMuted && !isPlaying) {
+            let playPromise = alarmAudio.play();
+            if (playPromise !== undefined) {
+                playPromise.then(() => {
+                    isPlaying = true;
+                    console.log("Âm thanh báo động đang phát.");
+                }).catch(error => {
+                    console.error("Error playing alarm: ", error);
+                    isPlaying = false;
+                    audioWarning.style.display = "block"; // Hiện cảnh báo nếu âm thanh bị chặn
+                    let blink = setInterval(() => {
+                        audioWarning.style.opacity = audioWarning.style.opacity === "1" ? "0.5" : "1";
+                    }, 500);
+                    setTimeout(() => clearInterval(blink), 5000);
                 });
             }
-        } else {
+        } else if (window.isAlarmMuted) {
             console.log("Alarm muted, skipping play.");
         }
     }
 
-
+    // Hàm dừng âm thanh báo động
     function stopAlarm() {
-        var alarm = document.getElementById("alarm_sound");
-        if (alarm) {
-            alarm.pause();
-            alarm.currentTime = 0; // Reset về đầu
+        if (isPlaying) {
+            alarmAudio.pause();
+            alarmAudio.currentTime = 0; // Reset về đầu
+            isPlaying = false;
+            console.log("Âm thanh báo động đã dừng.");
         }
     }
     function saveDelayTime() {

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_SHOW_WRIST_STRAP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9af378fec6c7c928153b8ec3053cf6178935853")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_SHOW_WRIST_STRAP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_SHOW_WRIST_STRAP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

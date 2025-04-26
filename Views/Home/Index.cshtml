@@ -271,6 +271,7 @@
                     let lspointofline = GetPointofline(line.IdLine);
 
                     for (let point of lspointofline) {
+
                         LsPointnow.some(function (pointnow) {
                             if (pointnow.IdPoint == point.IdPoint && pointnow.IdLine == point.IdLine) {
                                 let Statusp = GetStatus(pointnow.Alarm);
@@ -307,20 +308,29 @@
                     }
 
                     let alarmline = totalpointalarm > 0;
+                    
                     let boxline = document.getElementById("boxline" + line.IdLine);
                     let boxlinehead = document.getElementById("boxline" + line.IdLine + "head");
                     if (boxline) {
+                        let hasNG = false;
                         if (alarmline) {
                             boxline.classList.add("boxlineboderalarm");
                             boxlinehead.classList.add("boxlineheadalarm");
                             ngLineCount++;
+                           
                         } else {
                             boxline.classList.remove("boxlineboderalarm");
                             boxlinehead.classList.remove("boxlineheadalarm");
                         }
+                       
                     }
-                });
 
+                });
+                if (ngLineCount > 0) {
+                    playAlarm();
+                } else {
+                    stopAlarm();
+                }
                 let okLineCount = totalLines - ngLineCount;
                 let totalOkElement = document.getElementById('total-ok');
                 if (totalOkElement) {

@@ -555,7 +555,9 @@ body {
 .pointoff {
     animation: multiBlink5 2s infinite;
 }
-
+.pointok{
+    background-color: lime;
+}
 .boxline {
     display: flex;
     opacity: 1;
