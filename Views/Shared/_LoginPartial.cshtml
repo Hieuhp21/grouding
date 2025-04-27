@@ -848,6 +848,9 @@
         else if ('4'.includes(input)) {
             return 'ERR';
         }
+        else if ('7'.includes(input)) {
+            return 'Fixing';
+        }
         else if('5|6'.includes(input)){
             return 'DisConnect';
         }
@@ -884,7 +887,7 @@
                     break;
             }
         }
-        else { StrAlarm = 'NONE'; }
+        else { StrAlarm = 'Fixing'; }
 
         return StrAlarm;
     }
