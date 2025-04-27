@@ -909,7 +909,7 @@ namespace WEB_SHOW_WRIST_STRAP.Controllers
                             Value = 0,
                             MinSpect = 0,
                             MaxSpect = 1,
-                            Alarm = TotalData.Alarm,
+                            Alarm = "7",
                             Note = null,
                             OldValue = null,
                             TotalTime = null,
@@ -1027,7 +1027,7 @@ namespace WEB_SHOW_WRIST_STRAP.Controllers
         [HttpGet]
         public async Task<IActionResult> GetPaginatedDataTable(int idLine, int page = 1, int pageSize = 100)
         {
-            var timeCheckThreshold = DateTime.Now.AddDays(-1);
+            var timeCheckThreshold = DateTime.Now.AddDays(-1000);
 
             // Lấy dữ liệu từ cơ sở dữ liệu dựa trên IdLine và thời gian trong vòng 1 ngày qua
             var historyData = _context.TotalData

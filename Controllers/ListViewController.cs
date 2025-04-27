@@ -18,9 +18,11 @@ public class ListViewController : Controller
     private readonly Dictionary<int, List<int>> _clusters = new Dictionary<int, List<int>>
     {
         { 1, new List<int> { 1, 2, 3,4 } },       // Cụm 1: Line 1-3
-        { 2, new List<int> {  5, 6,7,8,9 } },       // Cụm 2: Line 4-6
-        { 3, new List<int> { 10} },       // Cụm 3: Line 7-9
-        { 4, new List<int> { 11 } }         // Cụm 4: Line 10-11
+        { 2, new List<int> { 5, 6,7,8,9 } },       // Cụm 2: Line 4-6
+        { 3, new List<int> { 10,11,12} },       // Cụm 3: Line 7-9
+        { 4, new List<int> { 13,14 } },
+        { 5, new List<int> { 15} },
+        { 6, new List<int> { 16,1000 } }
     };
    
 

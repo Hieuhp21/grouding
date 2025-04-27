@@ -22,11 +22,11 @@
                 <input asp-for="IdLine" class="form-control" />
                 <span asp-validation-for="IdLine" class="text-danger"></span>
             </div>
-            @* <div class="form-group">
+            <div class="form-group" hidden>
                 <label asp-for="IdIviLine" class="control-label"></label>
                 <input asp-for="IdIviLine" class="form-control" />
                 <span asp-validation-for="IdIviLine" class="text-danger"></span>
-            </div> *@
+            </div>
             <div class="form-group">
                 <label asp-for="NameLine" class="control-label"></label>
                 <input asp-for="NameLine" class="form-control" />
@@ -34,23 +34,17 @@
             </div>
             <div class="form-group">
                 <label asp-for="ListUser" class="control-label"></label>
-                <input asp-for="ListUser" readonly id="ListUsertxt" class="form-control" style="row-gap:" />
-
-                <div class="row" style="margin-block:5px">
-                    <span class="col-1" style="padding-block:5px;margin-block:5px">User:</span>
-                    <select class="col-6" style="padding-block:5px;margin-block:5px" id="cboxuser">
-                        @foreach (var Username in UserManager.Users)
-                        {
-                            <option value="@Username.UserName">@Username.UserName</option>
-                        }
-                    </select>
-                    <button type="button" class="col btn btn-info btn-space animation" style="margin-block:5px" onclick="AddUser()"> ADD </button>
-                    <button type="button" class="col btn btn-danger animation" style="margin-block:5px; margin-right:5px" onclick="DeleteUser()"> DELETE </button>
-                    <button type="button" class="col btn btn-danger animation" style="margin-block:5px; margin-right:12px" onclick="EditManual()"> EDIT </button>
-                </div>
+                <select id="ListUserSelect" class="form-control" multiple="multiple">
+                    @foreach (var user in UserManager.Users)
+                    {
+                        <option value="@user.UserName">@user.UserName</option>
+                    }
+                </select>
+                <input type="hidden" asp-for="ListUser" id="ListUsertxt" />
                 <span asp-validation-for="ListUser" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group" hidden>
                 <label asp-for="Floor" class="control-label"></label>
                 <input hidden id="txtfloor" asp-for="Floor" class="form-control" />
                 <br />
@@ -98,82 +92,43 @@
 <div>
     <a asp-action="Index" class="btn animation btn-back">Back to List</a>
 </div>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
 
 <script>
-
-    const start = function CheckUser() {
-
-        let txtlsuser = document.getElementById("ListUsertxt");
-
-        let listuser = txtlsuser.value.split('|');
-
-        txtlsuser.value = "";
-
-        let cboxuser = document.getElementById("cboxuser");
-
-        listuser.forEach(function (user) {
-
-            if (cboxuser.innerHTML.includes(user)) {
-                if (txtlsuser.value != "") {
-                    txtlsuser.value += "|" + user;
-                }
-                else {
-                    txtlsuser.value += user;
-                }
-            }
-
+    $(document).ready(function () {
+        // Khởi tạo Select2
+        $('#ListUserSelect').select2({
+            placeholder: "Chọn user...",
+            allowClear: true
         });
 
-    }
+        // Cập nhật input ẩn khi chọn user
+        $('#ListUserSelect').on('change', function () {
+            $('#ListUsertxt').val($(this).val().join('|'));
+        });
 
-    function AddUser() {
-        let listuser = document.getElementById("ListUsertxt").value.split('|');
-        let useradd = document.getElementById("cboxuser").value;
-
-        if (listuser.indexOf(useradd) == -1) {
-            document.getElementById("ListUsertxt").value += (listuser.length > 1 || listuser[0] != "") ? "|" + useradd : useradd;
+        // Đọc giá trị ban đầu từ input ẩn để khôi phục dữ liệu
+        let existingUsers = $('#ListUsertxt').val();
+        if (existingUsers) {
+            $('#ListUserSelect').val(existingUsers.split('|')).trigger('change');
         }
-        else {
-            alert("User already !");
-        }
-    }
+    });
 
-    function DeleteUser() {
-        let listuser = document.getElementById("ListUsertxt").value.split('|');
-        let useradd = document.getElementById("cboxuser").value;
-
-        if (listuser.indexOf(useradd) != -1) {
-            document.getElementById("ListUsertxt").value = "";
-            listuser.forEach(user => {
-                if (user != useradd) {
-                    if (document.getElementById("ListUsertxt").value != "") {
-                        document.getElementById("ListUsertxt").value += "|" + user;
-                    }
-                    else {
-                        document.getElementById("ListUsertxt").value += user;
-                    }
-                }
-            });
-
-        }
-        else {
-            alert("User is not in List!");
-        }
-    }
 
     let txtfloor = document.getElementById("txtfloor");
     let cboxfloor = document.getElementById("cboxfloor");
 
-    function EditManual() {
-        $("#ListUsertxt").removeAttr("readonly");
-    }
+    // function EditManual() {
+    //     $("#ListUsertxt").removeAttr("readonly");
+    // }
 
     async function LoadcboxFloor() {
         await sleep(500);
         Allfloor.forEach(function (floor) {
             cboxfloor.innerHTML += '<option value=' + floor.IdFloor + '>' + floor.NameFloor + '</option>'
         });
-        if (Allfloor.length>0){
+        if (Allfloor.length > 0) {
             txtfloor.value = Allfloor[0].IdFloor;
         }
     }
@@ -182,7 +137,7 @@
         txtfloor.value = idfloor;
     }
 
-    start();
+    // start();
 
     LoadcboxFloor();
 </script>

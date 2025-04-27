@@ -171,7 +171,7 @@
                     'px; width: ' + XYBox[2] + 'px; height: ' + XYBox[3] + 'px">' +
                     '<div id="boxline' + ID + 'head" class="boxlinehead">' +
                     '<p id="boxline' + ID + 'ivi" class="boxlinehead-a">' +
-                    (line.IdIviLine ? line.IdIviLine : 'IVI') + '</p></div>';
+                    (line.NameLine ? line.NameLine : 'Line') + '</p></div>';
 
                 let htmlinterafter = '</div>';
 
@@ -283,6 +283,7 @@
                                     // Xóa class cũ
                                     pointElement.classList.remove('pointalarm');
                                     pointElement.classList.remove('pointoff');
+                                    pointElement.classList.remove('pointfix');
                                     overlayElement.classList.remove('point-overlay-alarm');
 
                                     // Thêm class khi alarm
@@ -292,11 +293,13 @@
                                         totalpointalarm++;
                                     } else if (Statusp == 'OFF') {
                                         pointElement.classList.add('pointoff');
+                                    } else if (Statusp == 'FIX') {
+                                        pointElement.classList.add('pointfix');
                                     }
 
                                     let value = GetAlarm(pointnow.Alarm) || "OFF";
                                     let min = pointnow.MinSpect || 0;
-                                    let max = pointnow.MaxSpect || 6;
+                                    let max = pointnow.MaxSpect || 1;
                                     let pv = pointnow.Value || 0;
 
                                     pointElement.setAttribute("onmouseover",
@@ -314,7 +317,7 @@
                     if (boxline) {
                         let hasNG = false;
                         if (alarmline) {
-                            boxline.classList.add("boxlineboderalarm");
+                          //  boxline.classList.add("boxlineboderalarm");
                             boxlinehead.classList.add("boxlineheadalarm");
                             ngLineCount++;
                            

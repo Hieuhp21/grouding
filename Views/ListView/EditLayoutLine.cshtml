@@ -20,19 +20,13 @@
             height: auto;
             border: 1px solid gray;
             margin-right: 20px;
-            max-width: 1800px; /* Thêm giới hạn tối đa */
+            max-width: 1800px;
         }
 
             .line-container img {
-                max-width: 1800px;
-                width: auto;
+                width: 100%;
                 height: auto;
-            }
-
-            /* Thêm style cho trường hợp idLine < 10 */
-            .line-container.full-width img {
-                width: 1800px !important;
-                max-width: none;
+                max-height: 2000px;
             }
 
         .point {
@@ -48,6 +42,7 @@
 
         button {
             margin-top: 10px;
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -61,7 +56,7 @@
     <div class="home-container1" id="clayout">
         @foreach (var idLine in lines)
         {
-            <div class="line-container @(idLine < 10 ? "full-width" : "")" data-line-id="@idLine">
+            <div class="line-container" data-line-id="@idLine">
                 <div id="imgline_@idLine"></div>
             </div>
         }
@@ -76,10 +71,29 @@
         // Hàm khởi tạo
         function Loadfirst() {
             lines.forEach(idLine => {
-                let imgStyle = idLine < 10 ? 'width="1800px"' : 'height="135px"';
-                $(`#imgline_${idLine}`).html(`<img id="lineImage_${idLine}" ${imgStyle} src="/image/${idLine}.png?v=1.1"/>`);
+                let imgWidth;
+                // Xác định kích thước ảnh dựa trên cụm
+                if (idLine >= 1 && idLine <= 9) {
+                    imgWidth = 1800; // Cụm 1, 2
+                } else if (idLine >= 10 && idLine <= 12) {
+                    imgWidth = 1200; // Cụm 3
+                } else if (idLine >= 13 && idLine <= 14) {
+                    imgWidth = 800; // Cụm 4
+                } else if (idLine == 15) {
+                    imgWidth = 1000; // Cụm 5
+                } else if (idLine == 16) {
+                    imgWidth = 1000; // Cụm 6
+                } else {
+                    imgWidth = 1800; // Mặc định
+                }
+                $(`#imgline_${idLine}`).html(`<img id="lineImage_${idLine}" style="width:${imgWidth}px;" src="/image/${idLine}.png?v=1.2.2" onerror="handleImageError(this, ${idLine})"/>`);
             });
             loadEditablePoints();
+        }
+
+        function handleImageError(imgElement, idLine) {
+            console.warn(`Failed to load image for line ${idLine}`);
+            imgElement.src = "/image/default.png?v=1.12"; // Thay bằng ảnh mặc định nếu lỗi
         }
 
         let pointPositions = []; // Danh sách điểm và vị trí mới
@@ -92,8 +106,24 @@
                 data: { idLine: idLine },
                 success: function (data) {
                     data.forEach(point => {
-                        const top = point.topDetail != null ? point.topDetail : point.csstop;
-                        const left = point.leftDetail != null ? point.leftDetail : point.cssleft;
+                        // Xác định tỷ lệ dựa trên kích thước ảnh
+                        let baseWidth;
+                        if (point.idLine >= 1 && point.idLine <= 9) {
+                            baseWidth = 1800; // Cụm 1, 2
+                        } else if (point.idLine >= 10 && point.idLine <= 12) {
+                            baseWidth = 1200; // Cụm 3
+                        } else if (point.idLine >= 13 && point.idLine <= 14) {
+                            baseWidth = 800; // Cụm 4
+                        } else if (point.idLine == 15) {
+                            baseWidth = 1000; // Cụm 5
+                        } else if (point.idLine == 16) {
+                            baseWidth = 1000; // Cụm 6
+                        } else {
+                            baseWidth = 1800; // Mặc định
+                        }
+                        const scaleFactor = baseWidth / 1800; // Tỷ lệ so với kích thước chuẩn 1800px
+                        const top = (point.topDetail != null ? point.topDetail : point.csstop) * scaleFactor;
+                        const left = (point.leftDetail != null ? point.leftDetail : point.cssleft) * scaleFactor;
 
                         let pointDiv = $(`<div class="point" data-id="${point.idPoint}" data-line="${point.idLine}">${point.idPoint}</div>`);
                         pointDiv.css({
@@ -108,8 +138,8 @@
                             stop: function (event, ui) {
                                 const id = $(this).data('id');
                                 const lineId = $(this).data('line');
-                                const newTop = ui.position.top;
-                                const newLeft = ui.position.left;
+                                const newTop = ui.position.top / scaleFactor; // Lưu vị trí gốc
+                                const newLeft = ui.position.left / scaleFactor; // Lưu vị trí gốc
 
                                 // Cập nhật vị trí vào danh sách cần lưu
                                 updatePointPosition(id, lineId, newTop, newLeft);

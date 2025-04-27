@@ -555,8 +555,8 @@ body {
 .pointoff {
     animation: multiBlink5 2s infinite;
 }
-.pointok{
-    background-color: lime;
+.pointfix{
+    background-color:yellow !important;
 }
 .boxline {
     display: flex;
@@ -933,6 +933,11 @@ th, td {
 }
 
 
+th, td {
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
 
 .scrollable-tbody::-webkit-scrollbar {
     display: none;
@@ -940,4 +945,47 @@ th, td {
 
 .scroll-pagelist::-webkit-scrollbar {
     display: none;
+}
+.select2-container--default .select2-selection--multiple {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: #333 !important;
+        color: white !important;
+        border: 1px solid #555 !important;
+    }
+/* Nền của dropdown */
+.select2-dropdown {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+/* Màu chữ trong dropdown */
+.select2-results__option {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Màu nền khi hover */
+.select2-results__option--highlighted {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+/* Ô chọn nhiều */
+.select2-selection--multiple {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+/* Chữ trong ô chọn */
+.select2-selection__choice {
+    background-color: #222 !important;
+    color: white !important;
+    border: 1px solid #555 !important;
 }

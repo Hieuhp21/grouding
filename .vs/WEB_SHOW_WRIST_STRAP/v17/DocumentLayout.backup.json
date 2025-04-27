@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listview\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listview\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\controllers\\listlinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:controllers\\listlinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\showchart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\showchart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listview\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listview\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\wwwroot\\css\\listview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:wwwroot\\css\\listview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\controllers\\listviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,24 +71,24 @@
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listview\\editlayoutline.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\controllers\\listpointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:controllers\\listpointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\home\\editlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\home\\editlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\wwwroot\\css\\listview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:wwwroot\\css\\listview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\controllers\\listpointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:controllers\\listpointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\models\\entities\\datapointcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,20 +99,8 @@
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:models\\entities\\listpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\models\\entities\\datanow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:models\\entities\\datanow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\models\\entities\\listline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -175,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:models\\entities\\listfloor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\showchart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\showchart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listplcs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listplcs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -193,14 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoint2\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoint2\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\views\\listpoints\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|solutionrelative:views\\listpoints\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9117FB-5E10-4B7B-8FEF-6E7F667C13A7}|WEB_SHOW_WRIST_STRAP.csproj|d:\\hieu\\4p_tiepnoidat\\web_show_wrist_strap\\web_show_wrist_strap\\models\\entities\\listplc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -310,21 +314,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 227,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListView\\Detail.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Detail.cshtml",
-              "RelativeToolTip": "Views\\ListView\\Detail.cshtml",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAkwK0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T02:11:22.249Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -347,76 +338,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditLayoutLine.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\EditLayoutLine.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListView\\EditLayoutLine.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\EditLayoutLine.cshtml",
-              "RelativeToolTip": "Views\\ListView\\EditLayoutLine.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAE8AAAB3AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListView\\Detail.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Detail.cshtml",
+              "RelativeToolTip": "Views\\ListView\\Detail.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAEgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T08:04:03.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAJ4BAAAAAAAAAAAUwL4BAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T10:24:27.721Z",
+              "WhenOpened": "2025-02-07T02:11:22.249Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DataPointContext.cs",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\DataPointContext.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\DataPointContext.cs",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\DataPointContext.cs",
-              "RelativeToolTip": "Models\\Entities\\DataPointContext.cs",
-              "ViewState": "AgIAADMBAAAAAAAAAAAwwEgBAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T12:13:44.093Z"
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListPoints\\Index.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Index.cshtml",
+              "RelativeToolTip": "Views\\ListPoints\\Index.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T03:12:42.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListPoints\\Edit.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ListPoints\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T04:02:42.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListPoints\\Create.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Create.cshtml",
+              "RelativeToolTip": "Views\\ListPoints\\Create.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T04:09:13.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HistoryController.cs",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\HistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HistoryController.cs",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\HistoryController.cs",
-              "RelativeToolTip": "Controllers\\HistoryController.cs",
-              "ViewState": "AgIAAAYDAAAAAAAAAAAewCADAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:11:26.222Z"
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListLines\\Create.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Create.cshtml",
+              "RelativeToolTip": "Views\\ListLines\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T01:18:56.642Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ListLinesController.cs",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListLinesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ListLinesController.cs",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListLinesController.cs",
-              "RelativeToolTip": "Controllers\\ListLinesController.cs",
-              "ViewState": "AgIAAOMAAAAAAAAAAADgv+cAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T08:42:10.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC0BAAAAAAAAAAAAAEsBAAAgAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListLines\\Edit.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ListLines\\Edit.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwC4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T01:48:09.002Z"
+              "WhenOpened": "2024-08-08T12:31:06.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -426,73 +423,92 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGsCAAAAAAAAAAAcwIgCAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAJEDAAAAAAAAAAAAwKsDAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-08T06:53:42.223Z"
+              "WhenOpened": "2025-02-08T06:53:42.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListLinesController.cs",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListLinesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListLinesController.cs",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListLinesController.cs",
+              "RelativeToolTip": "Controllers\\ListLinesController.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAArwOcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:42:10.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAACQBAAAAAAAAAAAQwD8DAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T10:24:27.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListView\\Index.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Index.cshtml*",
+              "RelativeToolTip": "Views\\ListView\\Index.cshtml*",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAUwBkBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T04:09:04.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListPoints\\Details.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Details.cshtml",
-              "RelativeToolTip": "Views\\ListPoints\\Details.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T04:09:10.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EditLayout.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\EditLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\EditLayout.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\EditLayout.cshtml",
-              "RelativeToolTip": "Views\\Home\\EditLayout.cshtml",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAkwHUAAADGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-12T02:28:27.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T01:36:47.24Z"
+              "WhenOpened": "2024-08-07T01:36:47.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListView\\Index.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\Index.cshtml",
-              "RelativeToolTip": "Views\\ListView\\Index.cshtml",
-              "ViewState": "AgIAAKQCAAAAAAAAAAAkwLcCAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T04:09:04.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListViewController.cs",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListViewController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ListViewController.cs",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListViewController.cs",
-              "RelativeToolTip": "Controllers\\ListViewController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAArwGAAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "HistoryController.cs",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\HistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HistoryController.cs",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\HistoryController.cs",
+              "RelativeToolTip": "Controllers\\HistoryController.cs",
+              "ViewState": "AgIAAPMDAAAAAAAAAADwvwUEAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T01:40:29.937Z"
+              "WhenOpened": "2024-08-12T03:11:26.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "listview.css",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\css\\listview.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\listview.css",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\css\\listview.css",
+              "RelativeToolTip": "wwwroot\\css\\listview.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-01T04:10:16.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ListPointsController.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListPointsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ListPointsController.cs",
@@ -504,7 +520,116 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditLayout.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\EditLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EditLayout.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\EditLayout.cshtml",
+              "RelativeToolTip": "Views\\Home\\EditLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T02:28:27.242Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "ListViewController.cs",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListViewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListViewController.cs",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListViewController.cs",
+              "RelativeToolTip": "Controllers\\ListViewController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwHIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:40:29.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ShowChart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShowChart\\Index.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ShowChart\\Index.cshtml",
+              "RelativeToolTip": "Views\\ShowChart\\Index.cshtml",
+              "ViewState": "AgIAAJICAAAAAAAAAAAWwKsCAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T06:59:42.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditLayoutLine.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\EditLayoutLine.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListView\\EditLayoutLine.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListView\\EditLayoutLine.cshtml",
+              "RelativeToolTip": "Views\\ListView\\EditLayoutLine.cshtml",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAUwKsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T08:04:03.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListLines\\Index.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Index.cshtml",
+              "RelativeToolTip": "Views\\ListLines\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwFAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:32:29.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8BAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:48:09.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataPointContext.cs",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\DataPointContext.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\DataPointContext.cs",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\DataPointContext.cs",
+              "RelativeToolTip": "Models\\Entities\\DataPointContext.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAwwEgBAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:13:44.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dotnet-tools.json",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\.config\\dotnet-tools.json",
+              "RelativeDocumentMoniker": ".config\\dotnet-tools.json",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\.config\\dotnet-tools.json",
+              "RelativeToolTip": ".config\\dotnet-tools.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T02:46:28.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListPoints\\Details.cshtml",
+              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Details.cshtml",
+              "RelativeToolTip": "Views\\ListPoints\\Details.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T04:09:10.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ListPoint.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ListPoint.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ListPoint.cs",
@@ -516,43 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "listview.css",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\css\\listview.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\listview.css",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\css\\listview.css",
-              "RelativeToolTip": "wwwroot\\css\\listview.css",
-              "ViewState": "AgIAAG0BAAAAAAAAAAAmwHYBAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-01T04:10:16.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListLines\\Index.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Index.cshtml",
-              "RelativeToolTip": "Views\\ListLines\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T12:32:29.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListPoints\\Index.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Index.cshtml",
-              "RelativeToolTip": "Views\\ListPoints\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T03:12:42.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "TotalDatum.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\TotalDatum.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\TotalDatum.cs",
@@ -564,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -576,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -588,31 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListLines\\Edit.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Edit.cshtml",
-              "RelativeToolTip": "Views\\ListLines\\Edit.cshtml",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAAMgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T12:31:06.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListLines\\Create.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListLines\\Create.cshtml",
-              "RelativeToolTip": "Views\\ListLines\\Create.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T01:18:56.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "DataNow.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\DataNow.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\DataNow.cs",
@@ -624,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ListLine.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ListLine.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ListLine.cs",
@@ -636,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ListFloorsController.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListFloorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ListFloorsController.cs",
@@ -648,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -660,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Option.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\Option.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Option.cs",
@@ -672,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\History\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\History\\Index.cshtml",
@@ -684,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
@@ -696,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListFloors\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ListFloors\\Index.cshtml",
@@ -708,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPlcs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPlcs\\Index.cshtml",
@@ -720,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "IndexLeakVol.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\IndexLeakVol.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\IndexLeakVol.cshtml",
@@ -732,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -744,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -756,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
@@ -768,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "IVI40.png - PNG [741x43, 32 bit, PNG]",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\image\\IVI40.png",
               "RelativeDocumentMoniker": "wwwroot\\image\\IVI40.png",
@@ -780,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "IVI_Floor1old.png - PNG [1636x734, 24 bit, PNG]",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\image\\IVI_Floor1old.png",
               "RelativeDocumentMoniker": "wwwroot\\image\\IVI_Floor1old.png",
@@ -792,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "ListPoint2Controller.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListPoint2Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\ListPoint2Controller.cs",
@@ -804,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "LogExport.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\History\\LogExport.cshtml",
               "RelativeDocumentMoniker": "Views\\History\\LogExport.cshtml",
@@ -816,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "ListFloor.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ListFloor.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ListFloor.cs",
@@ -828,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "IVI_Floor2 - Copy.png - PNG [1786x818, 24 bit, PNG]",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\image\\IVI_Floor2 - Copy.png",
               "RelativeDocumentMoniker": "wwwroot\\image\\IVI_Floor2 - Copy.png",
@@ -840,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "IVI_Floor1 - Copy.png - PNG [1636x782, 32 bit, PNG]",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\image\\IVI_Floor1 - Copy.png",
               "RelativeDocumentMoniker": "wwwroot\\image\\IVI_Floor1 - Copy.png",
@@ -852,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPlcs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPlcs\\Edit.cshtml",
@@ -864,31 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ShowChart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShowChart\\Index.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ShowChart\\Index.cshtml",
-              "RelativeToolTip": "Views\\ShowChart\\Index.cshtml",
-              "ViewState": "AgIAAJICAAAAAAAAAAAWwKsCAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T06:59:42.871Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 49,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListPoints\\Create.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Create.cshtml",
-              "RelativeToolTip": "Views\\ListPoints\\Create.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAIBJwCsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T04:09:13.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoint2\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPoint2\\Create.cshtml",
@@ -900,19 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\ListPoints\\Edit.cshtml",
-              "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Edit.cshtml",
-              "RelativeToolTip": "Views\\ListPoints\\Edit.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T04:02:42.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPlcs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPlcs\\Create.cshtml",
@@ -924,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ListPlc.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ListPlc.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ListPlc.cs",
@@ -936,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoint2\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPoint2\\Edit.cshtml",
@@ -948,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoint2\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPoint2\\Delete.cshtml",
@@ -960,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoint2\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPoint2\\Details.cshtml",
@@ -972,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\ListPoints\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\ListPoints\\Delete.cshtml",
@@ -984,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "DataNow2.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\DataNow2.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\DataNow2.cs",
@@ -996,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ListPoint2.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ListPoint2.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ListPoint2.cs",
@@ -1008,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "TotalDatum2.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\TotalDatum2.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\TotalDatum2.cs",
@@ -1020,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Dataconfig.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Dataconfig.cs",
               "RelativeDocumentMoniker": "Models\\Dataconfig.cs",
@@ -1032,19 +1061,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "WEB_SHOW_WRIST_STRAP",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP.csproj",
               "RelativeDocumentMoniker": "WEB_SHOW_WRIST_STRAP.csproj",
               "ToolTip": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP.csproj",
               "RelativeToolTip": "WEB_SHOW_WRIST_STRAP.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-23T04:00:22.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T04:00:22.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "TotalDataViewModel.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Core\\ViewModels\\TotalDataViewModel.cs",
               "RelativeDocumentMoniker": "Core\\ViewModels\\TotalDataViewModel.cs",
@@ -1056,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -1068,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -1080,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "His_BzoffController.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\His_BzoffController.cs",
               "RelativeDocumentMoniker": "Controllers\\His_BzoffController.cs",
@@ -1092,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -1104,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "ListPlcsController.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Controllers\\ListPlcsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ListPlcsController.cs",
@@ -1116,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -1128,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Lge_Bk.png - PNG [3000x1896, 32 bit, PNG]",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\image\\Lge_Bk.png",
               "RelativeDocumentMoniker": "wwwroot\\image\\Lge_Bk.png",
@@ -1140,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "logo_baoan.png - PNG [480x100, 32 bit, PNG]",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\image\\logo_baoan.png",
               "RelativeDocumentMoniker": "wwwroot\\image\\logo_baoan.png",
@@ -1152,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -1164,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -1176,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "ListPlcViewModel.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Core\\ViewModels\\ListPlcViewModel.cs",
               "RelativeDocumentMoniker": "Core\\ViewModels\\ListPlcViewModel.cs",
@@ -1188,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "ActUnitType.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ActUnitType.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ActUnitType.cs",
@@ -1200,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "ActProtocolType.cs",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\Models\\Entities\\ActProtocolType.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ActProtocolType.cs",
@@ -1212,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "database_user",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\database_user",
               "RelativeDocumentMoniker": "database_user",
@@ -1223,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "chart.js",
               "DocumentMoniker": "D:\\Hieu\\4P_Tiepnoidat\\WEB_SHOW_WRIST_STRAP\\WEB_SHOW_WRIST_STRAP\\wwwroot\\lib\\chart\\chart.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\chart\\chart.js",
