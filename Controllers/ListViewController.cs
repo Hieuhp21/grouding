@@ -2,6 +2,9 @@
 using System.Globalization;
 using WEB_SHOW_WRIST_STRAP.Models.Entities;
 using WEB_SHOW_WRIST_STRAP;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol;
 
 public class ListViewController : Controller
 {
@@ -79,32 +82,66 @@ public class ListViewController : Controller
 
         return Json(points);
     }
-    
-    // Cập nhật trạng thái cho toàn bộ cụm
-    [HttpGet]
-    public JsonResult UpdateStatus(int idLine)
-    {
-        var cluster = _clusters.FirstOrDefault(c => c.Value.Contains(idLine));
-        var lines = cluster.Value != null ? cluster.Value : new List<int> { idLine };
 
-        var latestData = _context.DataNows
-            .Where(d => lines.Contains(d.IdLine))
-            .OrderByDescending(d => d.TimeCheck)
-            .Select(d => new
+    // Cập nhật trạng thái cho toàn bộ cụm
+    [Authorize]
+    [HttpGet]
+    public async Task<IActionResult> UpdateStatus(int idLine)
+    {
+        try
+        {
+            // Lấy danh sách lines từ cluster
+            var cluster = _clusters.FirstOrDefault(c => c.Value.Contains(idLine));
+            var lines = cluster.Value != null ? cluster.Value : new List<int> { idLine };
+
+            // Lấy chỉ các ListPoint có Type = 2
+            var type2Points = await _context.ListPoints
+                .AsNoTracking()
+                .Where(p => p.Type == "2" && lines.Contains(p.IdLine))
+                .Select(p => new { p.IdPoint, p.IdLine })
+                .ToListAsync();
+
+            // Tạo HashSet với cặp IdPoint, IdLine
+            var type2PointSet = new HashSet<(int IdPoint, int IdLine)>(
+                type2Points.Select(p => (p.IdPoint, p.IdLine))
+            );
+
+            // Lấy dữ liệu từ DataNows
+            var latestData = await _context.DataNows
+                .AsNoTracking()
+                .Where(d => lines.Contains(d.IdLine))
+                .OrderByDescending(d => d.TimeCheck)
+                .Select(d => new
+                {
+                    d.IdPoint,
+                    d.IdLine,
+                    d.TimeCheck,
+                    d.Value,
+                    d.MinSpect,
+                    d.MaxSpect,
+                    d.Alarm
+                })
+                .ToListAsync();
+
+            // Gán Alarm = 7 trong bộ nhớ
+            var result = latestData.Select(d => new
             {
                 d.IdPoint,
+                d.IdLine,
                 d.TimeCheck,
                 d.Value,
                 d.MinSpect,
                 d.MaxSpect,
-                d.Alarm,
-                d.IdLine
-            })
-            .ToList();
+                Alarm = type2PointSet.Contains((d.IdPoint, d.IdLine)) ? 7 : d.Alarm
+            }).ToList();
 
-        return Json(latestData);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { Error = "An error occurred while updating status." });
+        }
     }
-
 
 
 

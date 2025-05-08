@@ -242,22 +242,44 @@ namespace WEB_SHOW_WRIST_STRAP.Controllers
             catch { }
             return LsPointall.ToJson();
         }
-
-        [Authorize()]
+        [Authorize]
         [HttpPost]
-        public async Task<string> GetAllpointNow()
+        public async Task<IActionResult> GetAllpointNow()
         {
-            List<DataNow> LsPointNow = new List<DataNow>();
             try
             {
-                var result = await _context.DataNows.ToListAsync();
-                //var lsled = from led in result
-                //            orderby led.IdLed descending
-                //             select led;
-                LsPointNow = result;
+                // Lấy chỉ các ListPoint có Type = 2
+                var type2Points = await _context.ListPoints
+                     .AsNoTracking()
+                     .Where(p => p.Type == "2")
+                     .Select(p => new { p.IdPoint, p.IdLine })
+                     .ToListAsync();
+
+                // Lấy toàn bộ DataNow và gán Alarm = 7 cho các IdPoint có Type = 2
+                var pointsNow = await _context.DataNows
+                    .AsNoTracking()
+                    .OrderByDescending(p => p.IdPoint)
+                    .ToListAsync();
+
+                // Gán Alarm = 7 nếu IdPoint nằm trong danh sách Type = 2
+                var type2PointSet = new HashSet<(int IdPoint, int IdLine)>(
+                       type2Points.Select(p => (p.IdPoint, p.IdLine))
+                   );
+                foreach (var point in pointsNow)
+                {
+                    if (type2PointSet.Contains((point.IdPoint, point.IdLine)))
+                    {
+                        point.Alarm = 7;
+                    }
+                }
+
+                return Ok(pointsNow.ToJson());
             }
-            catch { }
-            return LsPointNow.ToJson();
+            catch (Exception ex)
+            {
+                //_logger.LogError(ex, "Error fetching current points");
+                return StatusCode(500, new { Error = "An error occurred while fetching current points." });
+            }
         }
 
     }

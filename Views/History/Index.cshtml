@@ -83,7 +83,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-6" hidden>
                                                 <label for="floorSelect" class="form-label label">Floor:</label>
                                                 <select id="floorSelect" name="floorSelect" class="form-select">
                                                     <option value="">All</option>
@@ -117,10 +117,11 @@
                         <div class="row" style="width:100%">
                             <p class="left-his-infor-title">Information</p>
                             <div class="col-6" style="font-size: 16px;">
-                                
-                                
-                                <div class="IfmRoom" ">
-                                    <span class="lable">Point ID:</span> <span id="IdPoint" >. . .</span>
+
+
+                                <div class="ft-his-status-title" " >
+                                    <span class="lable">Status:</span>
+                                    <span id="Status" class="Statusled">OK</span>
                                 </div>
                                 <div class="IfmRoom" ">
                                     <span class="lable">Point Name:</span> <span id="NamePointshow">. . .</span>
@@ -128,7 +129,7 @@
                                 <div class="IfmRoom" ">
                                     <span class="lable">Line:</span> <span id="LineShow">. . .</span>
                                 </div>
-                                <div class="IfmRoom" ">
+                                <div class="IfmRoom" hidden>
                                     <span class="lable">Floor:</span> <span id="FloorShow">. . .</span>
                                 </div>
                                 
@@ -137,10 +138,7 @@
                                 <div class="IfmRoom" style="display:none; ">
                                     <span>IdLog:</span> <span id="IdLog" style="font-weight: 400;">. . .</span>
                                 </div>
-                                <div class="ft-his-status-title" " style="margin-bottom: 10px;">
-                                    <span class="lable">Status:</span>
-                                    <span id="Status" class="Statusled">OK</span>
-                                </div>
+                            
                                 <div style="margin-bottom: 10px;">
                                     <span class="lable">Begin Time:</span> <span id="TimeBeginShow">. . .</span>
                                 </div>

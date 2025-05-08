@@ -813,7 +813,7 @@
         // Update pointCircle
         let pointCircleLayout = document.getElementById('pointCircle' + point.IdPoint);
         if (pointCircleLayout) {
-            pointCircleLayout.classList.remove('alert-box-point1', 'off-box-point1', 'ok-box-point');
+            pointCircleLayout.classList.remove('alert-box-point1', 'off-box-point1', 'ok-box-point','pointfix');
             if (Statusp == 'NG') {
                 pointCircleLayout.classList.add('alert-box-point1');
             }
@@ -825,7 +825,10 @@
             }
             else if (Statusp == 'OFF') {
                 pointCircleLayout.classList.add('off-box-point1');
-            } else {
+            }else if (Statusp == 'Fixing') {
+                pointCircleLayout.classList.add('pointfix');
+            }
+            else {
                 pointCircleLayout.classList.add('ok-box-point');
             }
 
